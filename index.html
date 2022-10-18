@@ -13,11 +13,11 @@
     <link rel="stylesheet" href="./src/input.css">
     
 </head> 
-<body>
+<body class="overflow-x-hidden">
     <section class="sec-one flex  flex-col justify-around">
-            <header class="flex mx-auto bg-white my-7 justify-around items-center gap-14 p-5 rounded-full ">
+            <header class=" flex mx-auto bg-white my-7 justify-around items-center gap-14 p-5 rounded-full">
                 <img src="./img/logo.png" alt="">
-
+                <div class="flex  gap-10 xs:hidden sm:hidden lg:block">
                 <a href="#" class="ml-20 one-hypr ">Home</a>
                 <a href="#" class="opacity-75 font-medium">About</a>
                 <a href="#" class="opacity-75 font-medium">Work Process</a>
@@ -25,6 +25,7 @@
                 <a href="#" class="opacity-75 font-medium">Pricing table</a>
                 <a href="#" class="opacity-75 font-medium">Blog Entires</a>
                 <a href="#" class="opacity-75 font-medium">Contact Us</a>
+              </div>
             </header>
          
           <!-- /////////////////////////////////////////////// -->
@@ -113,10 +114,10 @@
         <h1 class="sm:text-3xl text-xl font-light title-font mb-4 text-white opacity-80">Work Process</h1>
         <p class="lg:w-2/3 mx-auto leading-relaxed text-base font-light text-white opacity-60">Whatever c ardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway  <br> farm-to-table. Franzen you probably .</p>
       </div>
-      <div class="grid grid-cols-6 -m-4 justify-center items-center text-center ml-24 mr-24">
+      <div class="grid grid-cols-6 -m-4 justify-center items-center text-center ml-24 mr-24  xs:ml-48 sm:grid-cols-3 sm:gap-x-32 sm:mr-32  ">
         
-        <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
-          <div class=" px-4 rounded-lg pt-5 pb-3  w-36 shadow-2xl bg-white   ">
+        <div class="p-4 md:w-1/4 sm:w-1/2 w-full xs:mr-20">
+          <div class=" px-4 rounded-lg pt-5 pb-3  w-36 shadow-2xl bg-white ">
             <img src="./img/work-process-item-01.png"  alt="" class="mx-auto">
             <h2 class="title-font font-medium text-lg text-gray-900 mt-5 mb-1 opacity-80">Get Ideas</h2>
             <p class="leading-relaxed opacity-75">Godard pabst prism fam cliche
