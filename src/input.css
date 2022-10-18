@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sec-one{
+    background-image: url(../img/bg1.png);
+    background-size: cover;
+    height: 100%;
+}
+.sec-scards{
+    background-image: url(../img/work-process-bg.png);
+    background-size: cover;
+}
+
+.m-span{
+  color: #f0a1af;
+}
+.main-button{
+    background-color: #8162ee;
+}
+.pg-dew{
+    background-color: #8162ee;
+}
+
+.pg-deew{
+    background-color: #fe599e;
+}
+
+.d-pricing{
+    background-color: #f3f1fe;
+}
+
+.sec-details{
+background-image: url(../img/fun-facts-bg.png);
+background-size: cover;
+}
+
+.sec-btn{
+    background-color: #8162ee;
+}
+
+.last-footer{
+    background-color:#9b52d8;
+}
+
+.one-btn{
+    background-color: #fe599e;
+}
+
+.one-hypr{
+    color: #fe599e;
+}
